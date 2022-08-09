@@ -16,5 +16,6 @@ services:
   demo:
     image: [filename]
     network_mode: host
+    
 ### Pull Docker image using docker pull [filename]:tag
 ### Build and start a container using docker compose up [filename]:tag
