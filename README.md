@@ -6,8 +6,8 @@
 ### Install Docker and create an account.
 ## On the build machine...
 ### Go to the project's directory
-### Create a Docker image using docker image build [path]
-### Push Docker image using docker push [filename]:tag
+### Create a Docker image using ```docker image build [path]```
+### Push Docker image using ```docker push [filename]:tag```
 ## On the server machine...
 ### Create a file called docker-compose.yml with the following code:
 ```
@@ -19,5 +19,5 @@ services:
     network_mode: host
 ```
     
-### Pull Docker image using docker pull [filename]:tag
-### Build and start a container using docker compose up [filename]:tag
+### Pull Docker image using ```docker pull [filename]:tag```
+### Build and start a container using ```docker compose up [filename]:tag```
