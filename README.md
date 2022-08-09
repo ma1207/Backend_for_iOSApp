@@ -13,8 +13,11 @@
 version: "3"
 
 services:
+
   demo:
+  
     image: [filename]
+    
     network_mode: host
     
 ### Pull Docker image using docker pull [filename]:tag
