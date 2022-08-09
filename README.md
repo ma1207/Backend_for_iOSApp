@@ -10,14 +10,14 @@
 ### Push Docker image using docker push [filename]:tag
 ## On the server machine...
 ### Create a file called docker-compose.yml with the following code:
-'''
+```
 version: "3"
 
 services:
   demo:
     image: [filename]
     network_mode: host
-'''
+```
     
 ### Pull Docker image using docker pull [filename]:tag
 ### Build and start a container using docker compose up [filename]:tag
