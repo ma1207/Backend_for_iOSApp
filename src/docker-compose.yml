@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+  demo:
+    image: kaitlynma25/demo1
+    ports: 
+      - "80:80"
